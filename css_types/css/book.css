@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, rgba(25, 33, 25, 0.463), rgba(63, 13, 101, 0.655)),url('../image/biboo.jpg');
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.inline{
+    background:black;
+    font-size: 50px;
+}
+.top{
+    color: rgb(64, 0, 128); 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.internal {
+    font-size: 30px;
+}
+.txt{
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.book{
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.bookit{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.external{
+    border: 2px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.order{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+    margin-bottom: 20px;
+}
+.order{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(118, 0, 221);
+    transition: .3s ease;
+    margin-bottom: 20px;
+}
+.order:hover {
+    background: black;
+    color: rgb(73, 1, 190);
+  }

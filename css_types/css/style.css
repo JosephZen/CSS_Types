@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    text-align: center;
+
+}
+
+p{
+    color: #000000;
+    font-weight: bold;
+}
+
+.internal {
+    font-size: 150px;
+}
+.red-text{
+    color: red  
+}
+.inline{
+    background: linear-gradient(purple, blue);
+}
+
+.inline p1{
+    color: white; 
+    border: 5px yellow solid;
+}
+.inline p2{
+    color: white; 
+    border: 5px black solid;
+}
+.inline p3{
+    color: white; 
+    border: 5px red solid;
+}
+
+.border-red{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.text-large{
+    font-size: 50px;
+}
+.pink-bg{
+    background-color: pink;
+}
+.orange-bg{
+    background-color: orange;
+}
